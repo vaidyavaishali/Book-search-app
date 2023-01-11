@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
 import BookSearch from './BookSearch/BookSearch';
-import BookDetails from './BookSearchContextAPI/BookProvider';
+// import BookDetails from './BookSearchContextAPI/BookProvider';
 // import SearchBook from './BookSearch/SearchBook';
 
 function App() {
   return (
     <div className="App">
-      {/* <BookSearch/> */}
+      <BookSearch/>
       {/* <SearchBook/> */}
       <BookDetails/>
      
